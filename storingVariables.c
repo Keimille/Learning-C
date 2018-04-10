@@ -21,7 +21,7 @@ int main () {
     float x;
     x = 6;
     double d;
-    d = 12; //you can only use a variable after th edeclaration
+    d = 12; //you can only use a variable after the declaration
    //name of variable should not include space or special characters
    //cannot declare a variable with a digit example: int 1x;
    scanf(--,)//scanf allows the system the abilty to enter the text character (does not have to be static)
