@@ -1,0 +1,28 @@
+/**
+Print the average of 3 numbers that includes decimals using "casting."
+*/
+#include <stdio.h>
+
+int main()
+{
+    double aVar;
+    printf("Enter an interger:", aVar);
+    scanf("%lf", &aVar);
+    double bVar;
+    printf("Enter a second integer:", bVar);
+    scanf("%lf", &bVar);
+    double cVar;
+    printf("Enter a third integer:", cVar);
+    scanf("%lf", &cVar);
+
+    double dVar;
+
+    dVar= (float) aVar + bVar + cVar;
+
+    double eVar;
+    eVar = dVar / 3;
+
+    printf("%lf", eVar);
+
+    return 0;
+}
