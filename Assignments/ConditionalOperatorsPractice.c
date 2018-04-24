@@ -11,7 +11,7 @@ Books with more than 350 pages, print "You devour books!"
 int main (){
     int pages;
     printf("Enter the amount pages are in your book?");
-    scanf(%d, &pages);
+    scanf("%d", &pages);
 /*
     if (pages <= 100){
         printf("This book is light reading...");
@@ -27,11 +27,8 @@ int main (){
     }
 } 
 */
-    if (pages <= 100? (printf ("This book is light reading..."): pages > 100 && pages < 200? printf("This is about average for you...": pages >= 200 && pages <= 350? printf("This is a hefty reading." : printf("You devour books!")))));
+    if (pages <= 100? (printf ("This book is light reading...")): pages > 100 && pages < 200? printf("This is about average for you..."): pages >= 200 && pages <= 350? printf("This is a hefty reading.") : printf("You devour books!"))
 
-return 0
+return 0;
+
 }
-
-
-
-
