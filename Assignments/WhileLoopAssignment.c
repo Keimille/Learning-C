@@ -70,18 +70,27 @@ int main(){
 		// print the menu here
 printf("----Menu----");
 printf(" ");
-printf("1. Find factorial");
+printf(" 1. Find factorial ");
 printf(" ");
-printf("2. Find a^b");
+printf(" 2. Find a^b ");
 printf(" ");
-printf("3. Quit");
+printf(" 3. Quit ");
 		// get the response into option variable.
 scanf("%d", &option);
-	if (option == 3) {
-
+	if (option == 1) {
+printf(" Which number would you like? ");
+scanf("%d", &n);
 	}
-		quit = 0;
-		quit++;
+	if (n < 0) {
+		printf(" invalid number ")
+		else if (n > 10){
+			printf( " This program can find factorials only in the range 0 - 10 ")
+		}
+		else if (n => 0 && n <= 10) {
+
+		}
+	} 
+		
 		// Now. you can use if-else to check the option and do needful
 		// When option == 3, you need to do something with the variable quit, think
 		// about that.  	
