@@ -21,6 +21,6 @@ int main(void)
         }
         printf("Would you like to try again?\n Enter 1 for yes or 0 for no.");
         scanf("%d", &response2);
-    } while (response2 == 1 || response2 == 1);
+    } while (response2 == 1);
     return 0;
 }
