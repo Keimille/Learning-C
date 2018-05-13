@@ -7,7 +7,8 @@ int main(void)
     do
     {
         printf("Do you like Spam? ");
-        scanf("%c", &response1);
+        getchar();
+        response1 = ("%c", getchar());
         if (response1 == 'Y' || response1 == 'y')
         {
             printf("I like SPAM!!! \n"
@@ -23,5 +24,3 @@ int main(void)
     } while (response2 == 1 || response2 == 1);
     return 0;
 }
-
-    
