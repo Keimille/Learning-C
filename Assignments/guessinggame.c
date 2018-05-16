@@ -11,14 +11,12 @@ int main(){
   
   const int MAX_CHANCES = 7;  // a constant, to hold the Maximum possible chances
 
-  int computer_guess;  // for storing the guess by this program.
+  int computer_guess;
 
-  // get the current system time that we will use as seed
   long seed = time(NULL);
-  // set the seed using the srand function
+  
   srand(seed);
 
-  // let your program guess a 2 digit number
   computer_guess = rand() % 100;
 
   // Prompt the user
@@ -26,24 +24,29 @@ int main(){
   printf("Remember, you have only 7 chances.\n");
   printf("Best wishes...\n\n");
 
-  int user_guess; // to store the input from user.
+  int user_guess;
+  int remaining_guess;
+  int number_steps;
 
   int chance_count = 1; // to store chance number, maximum is MAX_CHANCES(7)
   int match = 0;        // if user successfully guessed the number, then assign 1 to this variable
                         // initially it is 0 as user yet to find the number.
     if (chance_count == user_guess)
+        match++;
   // iterate in a loop, as long as not found and chance_count <= MAX_CHANCES
   // Instruction: Offcourse, it is your task to write the condition for the while loop
-  while(/*as long as match is false and chances are <= MAX_CHANCES*/){ // 20 Marks
-    // prompt the user to enter their guess.
+  while (chance_count != user_guess && chance_count <= MAX_CHANCES) {
+   
     printf("Enter your number: ");
-    // get that input in user_guess
+ 
     scanf("%d", &user_guess);
-    // if the user_guess is greater than the computer_guess, then print "Your guess is high",
+   
     // also print, number of steps remaining.
-    if (/* write the condition */){                     // 10 Marks
+    if (user_guess > computer_guess){                    
       printf("Your guess is high\n");
-      // write a printf to print the remaining chances  // 5 Marks
+      number_steps = 
+      printf("%d" -\n);
+     
     }
     // other wise if the user_guess is less than the computer_guess then, print "Your guess is low"
     // also print number of steps remaining.
