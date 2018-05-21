@@ -5,9 +5,9 @@
 int main (void){
 
     int n;
-    printf("Entern the number of elements: ");
+    printf("Enter the number of elements: ");
     scanf("%d", &n);
-    //declare array
+    //declare the array
     int x[n];
     int i;
     for (i=0;i <= n;i++) {
