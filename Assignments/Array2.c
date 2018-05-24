@@ -13,11 +13,16 @@ int main()
         printf("Enter a number ", z);
         scanf("%f", &k[z]);
     }
-    int b;
+    int b = k;
     for (b = 0; b < 20; b++)
     {
         printf("Enter a number ", b);
         scanf("%f", &m[b]);
     }
+    int count = 0;
+    printf("The values of your first array: \n");
+    while (count < 20)
+        printf("%d", z);
+    count++;
     return 0;
 }
