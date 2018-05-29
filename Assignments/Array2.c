@@ -1,28 +1,25 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
 
-    float k[20];
-    float m[20];
+    int x[5], z[5], y;
 
-    int z;
-    for (z = 0; z < 20; z++)
-    {
-        printf("Enter a number ", z);
-        scanf("%f", &k[z]);
-    }
-    int b = k;
-    for (b = 0; b < 20; b++)
-    {
-        printf("Enter a number ", b);
-        scanf("%f", &m[b]);
-    }
-    int count = 0;
-    printf("The values of your first array: \n");
-    while (count < 20)
-        printf("%d", z);
-    count++;
+    printf("Enter an intergers for elements\n");
+    for (y = 0; y < 5; y++)
+    
+        scanf("%d", &x[y]);
+    
+    for (y=0; y < 5; y++)
+    printf("%d\n", x[y]);
+
+    /*copying data from first aray to the second*/
+    for (y = 0; y < 5; y++)
+    
+        x[5] = z[5];
+    
+    for (y = 0; y < 5; y++)
+        printf("x[%d] = %d\n", y, x[y]);
+
     return 0;
 }
