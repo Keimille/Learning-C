@@ -1,5 +1,5 @@
-#Arrays
+# Arrays
 
-##Useful Links
+## Useful Links
 
-###Notes:
+### Notes:
