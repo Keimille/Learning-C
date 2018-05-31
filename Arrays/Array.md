@@ -1,6 +1,8 @@
 # Arrays
 
 ## Useful Links
+- Need Array: https://www.youtube.com/watch?v=7F-Q2oVBYKk
+- Simple Array: https://www.youtube.com/watch?v=BqU3_ouKHwk
 
 ### Notes:
 
