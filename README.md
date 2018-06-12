@@ -7,6 +7,7 @@ As I am learning the C language, I thought it would be helpful to organize my no
 ## Categories (Alphabetical order):
 - **Arrays:** https://github.com/Keimille/Learning-C/tree/master/Arrays
 - **Loops:** https://github.com/Keimille/Learning-C/tree/master/Loops
+- **Strings:** https://github.com/Keimille/Learning-C/tree/master/Strings
 
 ### Helpful Links
 - Why is C so influential: https://www.youtube.com/watch?v=ci1PJexnfNE
