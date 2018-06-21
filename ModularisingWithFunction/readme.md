@@ -23,4 +23,6 @@ These are all genereal purpose functions. If you would like to developic cleaner
     * Return data type must match the data type prefix of function. *
     
   ## Create Library of Functions
-  Create a folders with header and a seperate folder with function definitions
+  1. Create a folders with [headers](https://github.com/Keimille/Learning-C/blob/master/ModularisingWithFunction/HeaderFormatExample.h) and a seperate folder with function definitions. 
+  2. Compile files with function definitions: *gcc -c *.c*
+  3. Create archive and name library: *ar -cvq libnameOfFile.a *.o*
