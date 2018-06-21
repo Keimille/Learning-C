@@ -15,4 +15,4 @@
 - pow()
 - trunc()
 
-** - Definition of functions ** https://fresh2refresh.com/c-programming/c-function/c-math-h-library-functions/
+**Definition of functions** https://fresh2refresh.com/c-programming/c-function/c-math-h-library-functions/
