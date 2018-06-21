@@ -23,3 +23,4 @@ These are all genereal purpose functions. If you would like to developic cleaner
     * Return data type must match the data type prefix of function. *
     
   ## Create Library of Functions
+  Create a folders with header and a seperate folder with function definitions
