@@ -11,4 +11,4 @@
 - ctime()
 - asctime()
 
-**Definitions of funcitons:** https://fresh2refresh.com/c-programming/c-function/c-time-h-library-functions/
+**Definitions of functions:** https://fresh2refresh.com/c-programming/c-function/c-time-h-library-functions/
