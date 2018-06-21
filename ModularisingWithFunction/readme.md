@@ -24,8 +24,8 @@ These are all genereal purpose functions. If you would like to developic cleaner
     
   ## Create Library of Functions
   1. Create a folders with [headers](https://github.com/Keimille/Learning-C/blob/master/ModularisingWithFunction/HeaderFormatExample.h) and a seperate folder with function definitions. 
-  2. Compile files with function definitions: **gcc -c *.c**
-  3. Create archive and name library: **ar -cvq libnameOfFile.a *.o**
+  2. Compile files with function definitions: gcc -c *.c
+  3. Create archive and name library: ar -cvq libnameOfFile.a *.o
   
   In order to include these headers in your program, use the following format:
   *#include "headers/filename.h"* 
