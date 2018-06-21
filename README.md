@@ -5,7 +5,7 @@ Projects and Notes for Learning C
 As I am learning the C language, I thought it would be helpful to organize my notes and discoveries so that others can have a resource to learn C. Pull request are welcome.
 
 ## Categories (Alphabetical order):
-- **Arrays:** https://github.com/Keimille/Learning-C/tree/master/Arrays
+- [**Arrays:**] (https://github.com/Keimille/Learning-C/tree/master/Arrays)
 - **Loops:** https://github.com/Keimille/Learning-C/tree/master/Loops
 - **Modularise With Function:** https://github.com/Keimille/Learning-C/tree/master/ModularisingWithFunction
 - **Strings:** https://github.com/Keimille/Learning-C/tree/master/Strings
