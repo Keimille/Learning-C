@@ -30,3 +30,5 @@ These are all genereal purpose functions. If you would like to developic cleaner
   In order to include these headers in your program, use the following format:
   *#include "headers/filename.h"* 
   "headers" is the directory that filename.h resides
+  
+  Compile the program as follows *gcc -o filename filename.c libnameOfFile.a*
