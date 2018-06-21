@@ -12,6 +12,6 @@ As I am learning the C language, I thought it would be helpful to organize my no
 
 ### Helpful Links
 - Why is C so influential: https://www.youtube.com/watch?v=ci1PJexnfNE
-- VArious Header Functions and definitions: https://github.com/Keimille/Learning-C/tree/master/HeaderFunctions 
+- Various Header Functions and definitions: https://github.com/Keimille/Learning-C/tree/master/HeaderFunctions 
 - ~Escape Sequences: https://www.quora.com/What-is-the-meaning-of-n-and-t-in-C-language~
 - ~C Standard Library Headers: http://en.cppreference.com/w/c/header~
