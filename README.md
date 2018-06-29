@@ -9,6 +9,7 @@ As I am learning the C language, I thought it would be helpful to organize my no
 - [**Loops**](https://github.com/Keimille/Learning-C/tree/master/Loops)
 - [**Modularise With Function**](https://github.com/Keimille/Learning-C/tree/master/ModularisingWithFunction)
 - [**Recursion**](https://github.com/Keimille/Learning-C/tree/master/Recursion)
+- [**Storage Class**[(https://github.com/Keimille/Learning-C/tree/master/Storage%20Class)
 - [**Strings**](https://github.com/Keimille/Learning-C/tree/master/Strings)
 
 ### Helpful Links
