@@ -24,3 +24,28 @@ Classes are automatically declared auto. The intial value of a variable with a c
 **Lifetime** - When the function is over the variable it is deallocated from memory.
 
 **Initial Value** - Undefined
+
+## Static Storage Class
+Static variables are all ready allocated in the program where they are declared.
+
+**Scope** - Local
+
+**Lifetime** - Exists until the termination of program
+
+**Intial Value** - Always initialized with 0
+
+## Extern Storage Class
+
+**Scope** - "Global." Can be accesses from any function of the program.
+
+**Lifetime** - Exists until termination of the program
+
+**Initial Value** - Intialized with 0
+
+## Register Storage Class 
+
+**Scope** - Limited to the block of code it is written in (locally available).
+
+**Lifetime** - When the function is over the variable it is deallocated from memory.
+
+**Initial Value** - Undefined
