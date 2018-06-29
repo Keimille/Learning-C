@@ -18,6 +18,9 @@ The class defines 3 things for a variable:
 
 ## Auto Storage Class
 Classes are automatically declared auto. The intial value of a variable with a class of auto is undefined (garbage) and as a result is unpredictable.
+
 **Scope** - Limited to the block of code it is written in (locally available).
+
 **Lifetime** - When the function is over the variable it is deallocated from memory.
+
 **Initial Value** - Undefined
